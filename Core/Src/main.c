@@ -145,20 +145,6 @@ int main(void)
 	      lcd_clear();
 	  }
 
-	   //Botton with led
-
-//	   if(HAL_GPIO_ReadPin(Botton_GPIO_Port, Botton_Pin)== GPIO_PIN_RESET){
-//		   HAL_GPIO_WritePin(LDG_GPIO_Port,LDG_Pin,0);
-//
-//	   }
-//	   else{
-//		   HAL_GPIO_WritePin(LDG_GPIO_Port,LDG_Pin,1);
-//	   }
-//	   Relay
-//	   HAL_GPIO_WritePin(Relay_GPIO_Port, Relay_Pin, 1); //On
-//	   HAL_Delay(1000);
-//	   HAL_GPIO_WritePin(Relay_GPIO_Port, Relay_Pin, 0); //Off
-//	   HAL_Delay(1000);
 
 
     /* USER CODE END WHILE */
@@ -242,3 +228,4 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
